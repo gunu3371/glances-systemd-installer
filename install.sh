@@ -1,5 +1,5 @@
 sudo apt update
-sudo apt install pipx
+sudo apt install pipx -y
 pipx ensurepath
 sudo pipx ensurepath --global
 pipx install 'glances[all]'
